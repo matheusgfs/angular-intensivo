@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { AgendamentoComponent } from './agendamento/agendamento.component';
+import { ProdutoComponent } from './produto/produto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiretivaNgifComponent,
-    AgendamentoComponent
+    AgendamentoComponent,
+    ProdutoComponent
   ],
   imports: [
     BrowserModule,
