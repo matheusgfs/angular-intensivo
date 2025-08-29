@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AgendamentoComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
   }
